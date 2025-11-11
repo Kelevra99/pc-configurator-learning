@@ -1,7 +1,7 @@
 const modalBtn = document.querySelector('.modal__button');
-console.log(modalBtn)
+//console.log(modalBtn)
 const modal = document.querySelector('.modal');
-console.log(modal)
+//console.log(modal)
 
 const modalInner = modal.querySelector('.modal__inner');
 modalInner.style.position = 'relative';
@@ -20,7 +20,7 @@ Object.assign(closeButton.style, {
     height: '32px',
     border: 'none',
     background: 'transparent',
-    color: '#FFFFFF', // подберите нужный цвет
+    color: '#FFFFFF', 
     fontSize: '24px',
     cursor: 'pointer'
   });
