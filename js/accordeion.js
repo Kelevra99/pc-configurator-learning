@@ -1,5 +1,5 @@
 const contents = document.querySelectorAll('.program-line__content');
-console.log(contents)
+
 
 contents.forEach((elem) => {
     
